@@ -1,0 +1,26 @@
+{
+    "name": "language-lingvodsl",
+    "displayName": "language-lingvodsl",
+    "description": "Syntax support for Lingvo DSL files",
+    "publisher": "quendimax",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lingvodsl",
+            "aliases": ["Lingvo DSL", "lingvodsl"],
+            "extensions": [".dsl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lingvodsl",
+            "scopeName": "text.dsl",
+            "path": "./syntaxes/lingvodsl.tmLanguage.json"
+        }]
+    }
+}
