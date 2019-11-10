@@ -17,3 +17,7 @@ Users appreciate release notes as you update your extension.
 ### 0.0.1
 
 - Add syntax highlighting.
+
+### 0.0.2
+
+- Some small improvements.
