@@ -1,6 +1,6 @@
 {
     "name": "language-lingvodsl",
-    "displayName": "language-lingvodsl",
+    "displayName": "Lingvo DSL",
     "description": "Syntax support for Lingvo DSL files",
     "publisher": "quendimax",
     "repository": {
