@@ -7,7 +7,7 @@
         "type": "git",
         "url": "https://github.com/quendimax/language-lignvodsl"
     },
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -15,16 +15,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "lingvodsl",
-            "aliases": ["Lingvo DSL", "lingvodsl"],
-            "extensions": [".dsl"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "lingvodsl",
-            "scopeName": "text.dsl",
-            "path": "./syntaxes/lingvodsl.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "lingvodsl",
+                "aliases": [
+                    "Lingvo DSL",
+                    "lingvodsl"
+                ],
+                "extensions": [
+                    ".dsl"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "lingvodsl",
+                "scopeName": "text.dsl",
+                "path": "./syntaxes/lingvodsl.tmLanguage.json"
+            }
+        ]
     }
 }
