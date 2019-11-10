@@ -3,6 +3,7 @@
     "displayName": "Lingvo DSL",
     "description": "Syntax support for Lingvo DSL files",
     "publisher": "quendimax",
+    "license": "SEE LICENSE IN LICENSE",
     "repository": {
         "type": "git",
         "url": "https://github.com/quendimax/language-lignvodsl"
@@ -14,6 +15,7 @@
     "categories": [
         "Programming Languages"
     ],
+    "keywords": ["dsl", "dictionary", "Lingvo DSL"],
     "contributes": {
         "languages": [
             {
@@ -35,5 +37,9 @@
                 "path": "./syntaxes/lingvodsl.tmLanguage.json"
             }
         ]
+    },
+    "bugs": {
+        "url": "https://github.com/quendimax/language-lignvodsl/issues",
+        "email": "quendimax@gmail.com"
     }
 }
